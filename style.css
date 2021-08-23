@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 0px 15%;
+    min-height: 50px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    color: ghostwhite;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.space {
+   margin-bottom: 20px;
+}
+
+#connection {
+    border-radius: 50%;
+    background-color: aqua;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+}
+
+#request {
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.card-content > h3:first-of-type{
+    color: #bcbcbc;
+}
+
+.newspace{
+    margin-bottom: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+a  {
+    color: ghostwhite;
+    text-decoration: none;
+} 
+
+ .btn {
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 2px 2px black;
+    padding: 5px;
+    height: 35px;
+    
+} 
+
+/* Cards */
+#wrapper {
+    width: 70%;
+    min-height: 100px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftcardbox {
+    width: 65%; /* remove later */
+
+    
+}
+
+#rightcardbox {
+    width: 30%;
+   
+}
+
+
+.card {
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+
+
+#jane-doe {
+    background-color: teal;
+    min-height: 60px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #333333;
+    color: white;
+    min-height: 60px;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#user-circle {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+#jane-doe img {
+    width: 60px;
+    margin-bottom: 50px;
+}
+
+.smallbox img {
+    width: 60px;
+
+}
+
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.textleft {
+    justify-content: flex-start;
+}
+
+.name {
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right img {
+   width: 40px;
+
+}
+
+.small {
+    width: 15px;
+}
+
+#location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-content {
+    padding: 15px 20px 5px 20px
+}
+
+
+p {
+    gap: 10px;
+}
+
+#edit {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+#footer a {
+    color: blue
+}
+
+#footer{
+    border: 1px solid grey;
+    padding-bottom: 10px;
+}
